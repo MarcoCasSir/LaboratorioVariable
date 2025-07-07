@@ -26,3 +26,4 @@ _Queremos mostrar cada grupo por consola, el nombre del grupo de música queremo
 1. Creo la interface band con sus propiedades (Nombre/Año/Activo/Genero).
 
 2. Creo unas variable para los estilos CSS indicado ( negrita/fuente mas grande/color fondo verde).
+3. Creo variable por emoticonos [enlace a pagina emoticonos](https://emojiterra.com/es).
