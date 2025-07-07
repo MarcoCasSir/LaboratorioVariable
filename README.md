@@ -1,11 +1,28 @@
-# typescript-sandbox
+<!-- markdownlint-disable MD036 -->
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+# Queremos mostrar información acerca de grupos musicales
 
-Pasos:
+## La información de los grupos que queremos mostrar
 
-- Clonate el proyecto.
-- Instala las dependencias con `npm install`.
-- Ejecuta el sandbox con `npm run dev`.
-- Abre el navegador en `http://localhost:5173/` (si ese puerto no te funciona, mira en la consola donde has hecho el build, puede que este ocupado y se haya abierto en otro puerto).
-- Puedes empezar a meter tu código en el fichero:
+- Nombre del grupo / cantante / compositor (string).
+- Año de fundación: cuando se formó el grupo (numero).
+- Si está en activo (booleano).
+- Género musical (string).
+
+_Cada género queremos tenerlo en una variable_
+
+## Los grupos que vamos a mostrar
+
+- The Beatles / 1960 / Activo: true / 🎵 Pop Rock.
+- Queen / 1970 / Activo: false / 🎸 Rock.
+- AC DC / 1973 / Activo: true / 🤘 Hard Rock.
+- Ludwig van Beethoven / 1770 / Activo: false / 🎼 Clásica.
+- The Rolling Stones / 1962 / Activo: true / 🎸 Rock.
+
+_Queremos mostrar cada grupo por consola, el nombre del grupo de música queremos ponerlo en negrita, con fuente más grande y color de fondo verde_
+
+## DESARROLLO DEL LABORATORIO
+
+1. Creo la interface band con sus propiedades (Nombre/Año/Activo/Genero).
+
+2. Creo unas variable para los estilos CSS indicado ( negrita/fuente mas grande/color fondo verde).
